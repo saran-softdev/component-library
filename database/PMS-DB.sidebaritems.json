@@ -1,0 +1,482 @@
+[{
+  "_id": {
+    "$oid": "6874d56a7bf60908f952caaf"
+  },
+  "sidebarName": "Admin Management",
+  "name": "User Management",
+  "href": "/dashboard/user-management",
+  "icon": "UsersIcon",
+  "children": null,
+  "order": 1,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:01:14.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:01:14.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874d5887bf60908f952cab4"
+  },
+  "sidebarName": "Admin Management",
+  "name": "Role & OrgId Management",
+  "href": "/dashboard/role-organization",
+  "icon": "ShieldCheckIcon",
+  "children": null,
+  "order": 2,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:01:44.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:01:44.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dabd7bf60908f952cac9"
+  },
+  "sidebarName": "Property Management",
+  "name": "Staffs-Management",
+  "href": "/dashboard/staffs-management",
+  "icon": "ShieldCheckIcon",
+  "children": null,
+  "order": 11,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:23:57.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:23:57.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874daf57bf60908f952cadb"
+  },
+  "sidebarName": "Settings",
+  "name": "General Settings",
+  "href": "/settings/general",
+  "icon": "Cog6ToothIcon",
+  "children": null,
+  "order": 20,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:53.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:53.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874da9b7bf60908f952cabe"
+  },
+  "sidebarName": "Analytics",
+  "name": "Occupancy Rates",
+  "href": "/analytics/occupancy-rates",
+  "icon": "ChartBarIcon",
+  "children": null,
+  "order": 7,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:23:23.871Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:23:23.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dae47bf60908f952cad5"
+  },
+  "sidebarName": "Guest Management",
+  "name": "All Guests",
+  "href": "/guests/all",
+  "icon": "UserIcon",
+  "children": null,
+  "order": 17,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:36.966Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:36.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dacb7bf60908f952cacd"
+  },
+  "sidebarName": "Reservations",
+  "name": "Create Reservation",
+  "href": "/reservations/create",
+  "icon": "PlusCircleIcon",
+  "children": null,
+  "order": 13,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:11.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:11.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dac67bf60908f952cacb"
+  },
+  "sidebarName": "Reservations",
+  "name": "All Reservations",
+  "href": "/reservations/all",
+  "icon": "ClipboardDocumentListIcon",
+  "children": null,
+  "order": 12,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:06.229Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:06.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874daa57bf60908f952cac0"
+  },
+  "sidebarName": "Property Management",
+  "name": "All Properties",
+  "href": "/properties/all",
+  "icon": "HomeModernIcon",
+  "children": null,
+  "order": 8,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:23:33.288Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:23:33.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dad87bf60908f952cad1"
+  },
+  "sidebarName": "Reservations",
+  "name": "Check-out",
+  "href": "/reservations/check-out",
+  "icon": "ArrowLeftOnRectangleIcon",
+  "children": null,
+  "order": 15,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:24.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:24.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874db027bf60908f952cadf"
+  },
+  "sidebarName": "Settings",
+  "name": "Security Settings",
+  "href": "/settings/security",
+  "icon": "LockClosedIcon",
+  "children": null,
+  "order": 22,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:25:06.434Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:25:06.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874d59a7bf60908f952cab6"
+  },
+  "sidebarName": "Admin Management",
+  "name": "Access Matrix",
+  "href": "/dashboard/access-matrix",
+  "icon": "ShieldCheckIcon",
+  "children": null,
+  "order": 3,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:02:02.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:02:02.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "sidebarName": "Analytics",
+  "name": "Overview",
+  "href": "/dashboard/overview",
+  "icon": "ChartPieIcon",
+  "children": null,
+  "order": 4,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:02:12.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:02:12.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874daea7bf60908f952cad7"
+  },
+  "sidebarName": "Guest Management",
+  "name": "Add Guest",
+  "href": "/guests/add",
+  "icon": "UserPlusIcon",
+  "children": null,
+  "order": 18,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:42.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:42.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dafc7bf60908f952cadd"
+  },
+  "sidebarName": "Settings",
+  "name": "System Settings",
+  "href": "/settings/system",
+  "icon": "CpuChipIcon",
+  "children": null,
+  "order": 21,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:25:00.439Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:25:00.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874daab7bf60908f952cac2"
+  },
+  "sidebarName": "Property Management",
+  "name": "Add Property",
+  "href": "/properties/add",
+  "icon": "HomeIcon",
+  "children": null,
+  "order": 9,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:23:39.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:23:39.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dad17bf60908f952cacf"
+  },
+  "sidebarName": "Reservations",
+  "name": "Check-in",
+  "href": "/reservations/check-in",
+  "icon": "ArrowRightOnRectangleIcon",
+  "children": null,
+  "order": 14,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:17.670Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:17.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dade7bf60908f952cad3"
+  },
+  "sidebarName": "Reservations",
+  "name": "Booking Calendar",
+  "href": "/reservations/calendar",
+  "icon": "CalendarIcon",
+  "children": null,
+  "order": 16,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:30.882Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:30.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874daef7bf60908f952cad9"
+  },
+  "sidebarName": "Guest Management",
+  "name": "Guest Reviews",
+  "href": "/guests/reviews",
+  "icon": "StarIcon",
+  "children": null,
+  "order": 19,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:24:47.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:24:47.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874d5c57bf60908f952caba"
+  },
+  "sidebarName": "Analytics",
+  "name": "Revenue Reports",
+  "href": "/analytics/revenue-reports",
+  "icon": "CurrencyDollarIcon",
+  "children": null,
+  "order": 5,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:02:45.185Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:02:45.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874dab27bf60908f952cac4"
+  },
+  "sidebarName": "Property Management",
+  "name": "Room Management",
+  "href": "#",
+  "icon": "Squares2X2Icon",
+  "children": [
+    {
+      "name": "All Rooms",
+      "href": "/rooms/all",
+      "_id": {
+        "$oid": "6874dab27bf60908f952cac5"
+      }
+    },
+    {
+      "name": "Add Room",
+      "href": "/rooms/add",
+      "_id": {
+        "$oid": "6874dab27bf60908f952cac6"
+      }
+    },
+    {
+      "name": "Room Types",
+      "href": "/rooms/types",
+      "_id": {
+        "$oid": "6874dab27bf60908f952cac7"
+      }
+    }
+  ],
+  "order": 10,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:23:46.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:23:46.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6874d5d17bf60908f952cabc"
+  },
+  "sidebarName": "Analytics",
+  "name": "Booking Analytics",
+  "href": "/analytics/booking-analytics",
+  "icon": "ChartBarSquareIcon",
+  "children": null,
+  "order": 6,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-14T10:02:57.446Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-14T10:02:57.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6887061aa6a14a92228ad44d"
+  },
+  "sidebarName": "Settings",
+  "name": "Component Access",
+  "href": "/dashboard/component-access",
+  "icon": "PuzzlePieceIcon",
+  "children": null,
+  "order": 1,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T05:09:46.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T05:09:46.022Z"
+  },
+  "__v": 0
+}]

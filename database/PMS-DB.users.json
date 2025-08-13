@@ -1,0 +1,923 @@
+[{
+  "_id": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "firstName": "Pms",
+  "lastName": "Admin",
+  "email": "pms.admin@pms.com",
+  "passwordHash": "$2b$10$OoA55gAFDy/T3w2YzjXFie64LnhfBC7RD91tyZZio/ykFM/T.R4Fm",
+  "phoneNumber": null,
+  "profileImageUrl": null,
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "688719b252e7ab858cec222f"
+  },
+  "roleId": {
+    "$oid": "6887192152e7ab858cec222c"
+  },
+  "isActive": true,
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-04T08:21:49.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T12:40:21.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68906e9c7d4d0f0b380ea69f"
+  },
+  "firstName": "Pms",
+  "lastName": "Staff",
+  "email": "pms.staff@pms.com",
+  "passwordHash": "$2b$10$ofzBRmw/cqw.Y65SmoNFw.17WABi02YMRdQOMwLAfmSuwtmQ85Sx2",
+  "phoneNumber": "",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "688719b252e7ab858cec222f"
+  },
+  "roleId": {
+    "$oid": "68906e707d4d0f0b380ea681"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-04T08:26:04.844Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:45:50.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891aaa70dc6c8c4ead56d2b"
+  },
+  "firstName": "Hilton",
+  "lastName": "owner",
+  "email": "hilton.owner@hilton.com",
+  "passwordHash": "$2b$10$YZPxLMoV1PBNX838/8yndeGZLDVPINsIWcRBfnWbiviQXTNygShfm",
+  "phoneNumber": "123",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891aa560dc6c8c4ead56d1e"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T06:54:31.259Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T06:57:08.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891de980dc6c8c4ead56dd0"
+  },
+  "firstName": "john",
+  "lastName": "hey",
+  "email": "john.hey@hilton.com",
+  "passwordHash": "$2b$10$Vs35k2ycI0OliSYrzV7k4.eE3NoOIpx2IgxCXVyHnXBnLdkL3KkHC",
+  "phoneNumber": "12",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891aa560dc6c8c4ead56d1e"
+  },
+  "roleId": {
+    "$oid": "6891dc440dc6c8c4ead56d68"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891aaa70dc6c8c4ead56d2b"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:36:08.390Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:36:30.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "firstName": "Marriott",
+  "lastName": "Owner",
+  "email": "marriott.owner@marriott.com",
+  "passwordHash": "$2b$10$J4VX1salv4lDpit38hdCbODTacir7Oiui8WX9QjK.jqDfavrwWmLS",
+  "phoneNumber": "14",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:44:19.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:53:02.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891e2980dc6c8c4ead56ea0"
+  },
+  "firstName": "Abel",
+  "lastName": "Tuter",
+  "email": "abel.tuter@marriott.com",
+  "passwordHash": "$2b$10$0pUBWLLhRJViqxwlwdBkPuWmZOTrwrKgXM5b6x1w6TukRMmi4I/fa",
+  "phoneNumber": "65",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "6891e1b90dc6c8c4ead56e75"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:53:12.210Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:52:11.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6892ef2a4b7dc133a1cb5ea7"
+  },
+  "firstName": "Beth",
+  "lastName": "Anglin",
+  "email": "beth.anglin@marriott.com",
+  "passwordHash": "$2b$10$8UvDxhfCQFKcyOIgRxotJeQFV8r4WbfF7yhVAxzgWh9MmIC/XGyGq",
+  "phoneNumber": "123444",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "6891e1b90dc6c8c4ead56e75"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-06T05:59:06.148Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T06:09:13.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893063bbffd4aadc4bfa132"
+  },
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@marriott.com",
+  "passwordHash": "$2b$10$h3zquJawlTRKoqiee7AqV.w5RrjZa2OSbkv5n2Yiz.hHxq.mGCAU.",
+  "phoneNumber": "123445",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "6891e1b90dc6c8c4ead56e75"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-06T07:37:31.402Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T07:37:31.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68931431c463c030f5f82d67"
+  },
+  "firstName": "David",
+  "lastName": "Loo",
+  "email": "david.loo@marriott.com",
+  "passwordHash": "$2b$10$znNyuxKdogFW/5ChcK9PbeCu91nYBZBHGvKSh8ku6ilous641Qpwy",
+  "phoneNumber": "123443",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "689313a4c463c030f5f82ce8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-06T08:37:05.867Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:36:13.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893377d40c12e5f2da15ee7"
+  },
+  "firstName": "Fred",
+  "lastName": "Luddy",
+  "email": "fred.luddy@marriott.com",
+  "passwordHash": "$2b$10$xQd1w7RVZl5obbFdZyQgSu26wRwN7ebgYXsnGzUKe/qQ.4i3xp7wW",
+  "phoneNumber": "1234443",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "roleId": {
+    "$oid": "689313a4c463c030f5f82ce8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-06T11:07:41.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T11:15:58.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "firstName": "Sarah",
+  "lastName": "Connor",
+  "email": "sarah.connor@hyatt.com",
+  "passwordHash": "$2b$10$ZMpMMnXkuDTK9au8k1VagOM3qzDjiEeY95s3abV6CLYa3PvGDcHXm",
+  "phoneNumber": "123544",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:40:59.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:04:46.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "firstName": "Emily",
+  "lastName": "Blunt",
+  "email": "emily.blunt@oberoi.com",
+  "passwordHash": "$2b$10$q186dqm1CACDFy4BxlTxNeQbdDj70eQNcje8zWlO0W328G4jtTwvy",
+  "phoneNumber": "1234452",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:43:34.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:11:35.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944018b56a8f80916e5709"
+  },
+  "firstName": "Kyle",
+  "lastName": "Reese",
+  "email": "kyle.reese@hyatt.com",
+  "passwordHash": "$2b$10$oAeVf83U9x8ccKkFQASAy.fsLx4RpY4tFTSdF6x0CjlvPakj2DqRK",
+  "phoneNumber": "1232",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "roleId": {
+    "$oid": "68943fbeb56a8f80916e56f6"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:56:40.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:56:40.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944035b56a8f80916e5710"
+  },
+  "firstName": "Michael",
+  "lastName": "Biehn",
+  "email": "michael.biehn@hyatt.com",
+  "passwordHash": "$2b$10$dbS7wzxuIOskCu6PcuBA4ugQ9zECq5gnqc1fugv2lMaTMGkDYjb9y",
+  "phoneNumber": "12322",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "roleId": {
+    "$oid": "68943fbeb56a8f80916e56f6"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:57:09.113Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:57:09.113Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894404ab56a8f80916e5717"
+  },
+  "firstName": "Ellen",
+  "lastName": "Ripley",
+  "email": "ellen.ripley@hyatt.com",
+  "passwordHash": "$2b$10$Fe7JipYDiGff.eC4KuXroOEGkQy6jLmiHyfD0gycciYoS1tHH4Xtq",
+  "phoneNumber": "12323",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "roleId": {
+    "$oid": "68943fc9b56a8f80916e56fa"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:57:30.725Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:57:30.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944068b56a8f80916e571e"
+  },
+  "firstName": "Isaac",
+  "lastName": "Clarke",
+  "email": "isaac.clarke@hyatt.com",
+  "passwordHash": "$2b$10$lkUQVoiNyG0cJTZZyNleneO3vyumQ0BxBXt0STaP3/v4FX4n7ooWy",
+  "phoneNumber": "123225",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "roleId": {
+    "$oid": "68943fd3b56a8f80916e56fe"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:58:00.764Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:59:56.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "firstName": "Anjali",
+  "lastName": "Priya",
+  "email": "anjali.priya@taj.com",
+  "passwordHash": "$2b$10$EgNxEuD0PJSPriR2tYhMqu93yF/Fq3q.6RGXYQhGLL1ElN4b1LRuu",
+  "phoneNumber": "12366",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:06:04.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:06:43.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944328b56a8f80916e5884"
+  },
+  "firstName": "Anita",
+  "lastName": "Mehra",
+  "email": "anita.mehra@taj.com",
+  "passwordHash": "$2b$10$4nIc1h7bc6Vto5emInbXDeKWMqU6MkyFvTZhV./z6lhHl7QlVjuzy",
+  "phoneNumber": "123267",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "roleId": {
+    "$oid": "689442a1b56a8f80916e5833"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:09:44.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:09:44.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944344b56a8f80916e588b"
+  },
+  "firstName": "Vikram",
+  "lastName": "Singh",
+  "email": "vikram.singh@taj.com",
+  "passwordHash": "$2b$10$3peisVNCY3dgHnFWQMnfx.cda46fcty8w2yYSs8lskhFkSDykFIjq",
+  "phoneNumber": "1521",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "roleId": {
+    "$oid": "689442a1b56a8f80916e5833"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:10:12.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:10:12.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944359b56a8f80916e5892"
+  },
+  "firstName": "Meera",
+  "lastName": "Nair",
+  "email": "meera.nair@taj.com",
+  "passwordHash": "$2b$10$d26sSfyRHmeQg4FH1bV2COMctollum9IvUtcPoXcNFqggetaxwTa.",
+  "phoneNumber": "1246",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "roleId": {
+    "$oid": "689442a7b56a8f80916e5837"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:10:33.393Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:10:33.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944371b56a8f80916e5899"
+  },
+  "firstName": "Sanjay",
+  "lastName": "Joshi",
+  "email": "sanjay.joshi@taj.com",
+  "passwordHash": "$2b$10$Nq4E/ozw/Z0gYD.HN1tBGeaKyITEgbFcUCEl1R6HgcHQ56LfQrngO",
+  "phoneNumber": "1876",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "roleId": {
+    "$oid": "689442a1b56a8f80916e5833"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:10:57.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:10:57.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944461b56a8f80916e5928"
+  },
+  "firstName": "James",
+  "lastName": "McAvoy",
+  "email": "james.mcavoy@oberoi.com",
+  "passwordHash": "$2b$10$4rDejOs23pZY5WeLDobZL.A.IGsBKJA./S9LEfJ1mAUtIJhETRKii",
+  "phoneNumber": "12327",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "roleId": {
+    "$oid": "689443aeb56a8f80916e58d6"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:14:57.896Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:14:57.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944474b56a8f80916e592f"
+  },
+  "firstName": "Priya",
+  "lastName": "Menon",
+  "email": "priya.menon@oberoi.com",
+  "passwordHash": "$2b$10$UIn6kGKlN2bDbf4KrfOKae3B99ABMJdpe0rJ4HGiSFNQAnIGITGka",
+  "phoneNumber": "123237",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "roleId": {
+    "$oid": "689443bab56a8f80916e58da"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:15:16.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:15:16.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944484b56a8f80916e5936"
+  },
+  "firstName": "Arjun",
+  "lastName": "Kapoor",
+  "email": "arjun.kapoor@oberoi.com",
+  "passwordHash": "$2b$10$IWYEKenvYdfm7wY0iY/zCu/qOTh.CS/wOgm2LXo0HqlXMER3qB1Au",
+  "phoneNumber": "12320",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "roleId": {
+    "$oid": "689443aeb56a8f80916e58d6"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:15:32.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:15:32.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944499b56a8f80916e593d"
+  },
+  "firstName": "Leena",
+  "lastName": "D'Souza",
+  "email": "leena.dsouza@oberoi.com",
+  "passwordHash": "$2b$10$Y3JlUZX4GS5M/P8hjNVPx.sd3LqJLgk8opP.SzFmEvkHRiklPIbGm",
+  "phoneNumber": "1232766",
+  "profileImageUrl": "",
+  "failedLoginAttempts": 0,
+  "accountLockedUntil": null,
+  "organizationId": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "roleId": {
+    "$oid": "689443aeb56a8f80916e58d6"
+  },
+  "isActive": true,
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:15:53.175Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:15:53.175Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,307 @@
+[{
+  "_id": {
+    "$oid": "6887192152e7ab858cec222c"
+  },
+  "roleName": "pms-admin",
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-07-28T06:30:57.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T06:30:57.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68906e707d4d0f0b380ea681"
+  },
+  "roleName": "pms-staff",
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-04T08:25:20.930Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T08:25:20.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "roleName": "hotel-owner",
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-04T08:29:15.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T08:29:15.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891dc440dc6c8c4ead56d68"
+  },
+  "roleName": "hilton-staffs",
+  "createdBy": {
+    "$oid": "6891aaa70dc6c8c4ead56d2b"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:26:12.058Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:26:12.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891e1b90dc6c8c4ead56e75"
+  },
+  "roleName": "marriott-staffs",
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:49:29.691Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:49:29.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689313a4c463c030f5f82ce8"
+  },
+  "roleName": "marriott-managers",
+  "createdBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "updatedBy": {
+    "$oid": "6891e0830dc6c8c4ead56e20"
+  },
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-06T08:34:44.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T08:34:59.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943fbeb56a8f80916e56f6"
+  },
+  "roleName": "hyatt-staffs",
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:55:10.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:04:56.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943fc9b56a8f80916e56fa"
+  },
+  "roleName": "hyatt-managers",
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:55:21.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:05:01.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943fd3b56a8f80916e56fe"
+  },
+  "roleName": "hyatt-frontdesk",
+  "createdBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "updatedBy": {
+    "$oid": "68943c6bb56a8f80916e5677"
+  },
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:55:31.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:05:08.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689442a1b56a8f80916e5833"
+  },
+  "roleName": "taj-staffs",
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:07:29.596Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:07:29.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689442a7b56a8f80916e5837"
+  },
+  "roleName": "taj-managers",
+  "createdBy": {
+    "$oid": "6894424cb56a8f80916e581a"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:07:35.520Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:07:35.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689443aeb56a8f80916e58d6"
+  },
+  "roleName": "oberoi-staffs",
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:11:58.100Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:11:58.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689443bab56a8f80916e58da"
+  },
+  "roleName": "oberoi-managers",
+  "createdBy": {
+    "$oid": "68943d06b56a8f80916e5681"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T06:12:10.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:12:10.265Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "68874ce32742b22d21b872c6"
+  },
+  "componentName": "SupportTicketsBoard",
+  "description": "List of unresolved support requests",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:11:47.756Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:11:47.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d252742b22d21b872e1"
+  },
+  "componentName": "OwnerRoomInventory",
+  "description": "Count of rooms across all their properties",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:12:53.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:12:53.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d922742b22d21b8730e"
+  },
+  "componentName": "GuestServiceRequests",
+  "description": "Food, laundry, service requests",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:14:42.955Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:14:42.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d7f2742b22d21b87305"
+  },
+  "componentName": "CheckinCheckoutMonitor",
+  "description": "Count of guests arriving and leaving",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:14:23.184Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:14:23.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d532742b22d21b872f3"
+  },
+  "componentName": "OwnerRevenueReport",
+  "description": "Their revenue generated",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:13:39.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:13:39.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874cc82742b22d21b872bd"
+  },
+  "componentName": "PlatformRevenueInsights",
+  "description": "Cumulative payment revenue",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:11:20.330Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:11:20.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874cfe2742b22d21b872cf"
+  },
+  "componentName": "VerificationTaskQueue",
+  "description": "Hotels/documents pending verification",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:12:14.878Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:12:14.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d6a2742b22d21b872fc"
+  },
+  "componentName": "StaffTaskAssignments",
+  "description": "Room cleaning, check-in/out duties",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:14:02.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:14:02.858Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874c6f2742b22d21b872a7"
+  },
+  "componentName": "AdminHotelCount",
+  "description": "Total number of hotels onboarded",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:09:51.539Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:09:51.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874cad2742b22d21b872b4"
+  },
+  "componentName": "AdminBookingStats",
+  "description": "All bookings across platform",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:10:53.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:10:53.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d112742b22d21b872d8"
+  },
+  "componentName": "TodayBookingSummary",
+  "description": "Stats for current day's bookings",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:12:33.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:12:33.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68874d3b2742b22d21b872ea"
+  },
+  "componentName": "OwnerBookingOverview",
+  "description": "All bookings for their hotel(s)",
+  "status": "active",
+  "usageLocation": {
+    "$oid": "6874d5a47bf60908f952cab8"
+  },
+  "isDeleted": false,
+  "createdBy": {
+    "$oid": "68870688b3da2aa74d25baf7"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T10:13:15.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T10:13:15.904Z"
+  },
+  "__v": 0
+}]

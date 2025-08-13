@@ -1,0 +1,2330 @@
+[{
+  "_id": {
+    "$oid": "68871cae52e7ab858cec2251"
+  },
+  "roleId": {
+    "$oid": "6887192152e7ab858cec222c"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "688719b252e7ab858cec222f"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6887061aa6a14a92228ad44d"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874db027bf60908f952cadf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dabd7bf60908f952cac9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dab27bf60908f952cac4"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daab7bf60908f952cac2"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daa57bf60908f952cac0"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874da9b7bf60908f952cabe"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5d17bf60908f952cabc"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5c57bf60908f952caba"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": [
+        {
+          "$oid": "68874cc82742b22d21b872bd"
+        },
+        {
+          "$oid": "68874c6f2742b22d21b872a7"
+        },
+        {
+          "$oid": "68874cad2742b22d21b872b4"
+        }
+      ]
+    },
+    {
+      "module": {
+        "$oid": "6874d59a7bf60908f952cab6"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5887bf60908f952cab4"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d56a7bf60908f952caaf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-07-28T06:46:06.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T07:10:22.028Z"
+  },
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "68909cd60e9013c00dfa6399"
+  },
+  "roleId": {
+    "$oid": "68906f5b7d4d0f0b380ea6c8"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "6891aa560dc6c8c4ead56d1e"
+    },
+    {
+      "$oid": "6891dfd20dc6c8c4ead56e01"
+    },
+    {
+      "$oid": "68943bfbb56a8f80916e5650"
+    },
+    {
+      "$oid": "68943c02b56a8f80916e5655"
+    },
+    {
+      "$oid": "68943c09b56a8f80916e565a"
+    },
+    {
+      "$oid": "688719b252e7ab858cec222f"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dabd7bf60908f952cac9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dab27bf60908f952cac4"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daab7bf60908f952cac2"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daa57bf60908f952cac0"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874da9b7bf60908f952cabe"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5d17bf60908f952cabc"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5c57bf60908f952caba"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": [
+        {
+          "$oid": "68874d252742b22d21b872e1"
+        },
+        {
+          "$oid": "68874d532742b22d21b872f3"
+        },
+        {
+          "$oid": "68874d3b2742b22d21b872ea"
+        }
+      ]
+    },
+    {
+      "module": {
+        "$oid": "6874d59a7bf60908f952cab6"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5887bf60908f952cab4"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d56a7bf60908f952caaf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-04T11:43:18.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:49:36.268Z"
+  },
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "6891dd0c0dc6c8c4ead56db8"
+  },
+  "roleId": {
+    "$oid": "6891dc440dc6c8c4ead56d68"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "6891aa560dc6c8c4ead56d1e"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dabd7bf60908f952cac9"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dab27bf60908f952cac4"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daab7bf60908f952cac2"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daa57bf60908f952cac0"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": [
+        {
+          "$oid": "68874ce32742b22d21b872c6"
+        },
+        {
+          "$oid": "68874cfe2742b22d21b872cf"
+        },
+        {
+          "$oid": "68874d112742b22d21b872d8"
+        },
+        {
+          "$oid": "68874d252742b22d21b872e1"
+        },
+        {
+          "$oid": "68874d6a2742b22d21b872fc"
+        },
+        {
+          "$oid": "68874d7f2742b22d21b87305"
+        },
+        {
+          "$oid": "68874d922742b22d21b8730e"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-05T10:29:32.522Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:29:32.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891e1cf0dc6c8c4ead56e8c"
+  },
+  "roleId": {
+    "$oid": "6891e1b90dc6c8c4ead56e75"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "6891dfd20dc6c8c4ead56e01"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": [
+        {
+          "$oid": "68874d922742b22d21b8730e"
+        },
+        {
+          "$oid": "68874d7f2742b22d21b87305"
+        },
+        {
+          "$oid": "68874d6a2742b22d21b872fc"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-05T10:49:51.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:53:29.312Z"
+  },
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "689313ccc463c030f5f82d26"
+  },
+  "roleId": {
+    "$oid": "689313a4c463c030f5f82ce8"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "6891dfd20dc6c8c4ead56e01"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-06T08:35:24.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T11:17:07.938Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "689338f240c12e5f2da15f19"
+  },
+  "roleId": {
+    "$oid": "689313a4c463c030f5f82ce8"
+  },
+  "userId": {
+    "$oid": "68931431c463c030f5f82d67"
+  },
+  "matrixType": "ABAC",
+  "organizationId": [
+    {
+      "$oid": "6891dfd20dc6c8c4ead56e01"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": false,
+        "read": true,
+        "update": false,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-06T11:13:54.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T11:13:54.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894407eb56a8f80916e5738"
+  },
+  "roleId": {
+    "$oid": "68943fbeb56a8f80916e56f6"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943bfbb56a8f80916e5650"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T05:58:22.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:58:22.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894409cb56a8f80916e5758"
+  },
+  "roleId": {
+    "$oid": "68943fc9b56a8f80916e56fa"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943bfbb56a8f80916e5650"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874da9b7bf60908f952cabe"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5d17bf60908f952cabc"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5c57bf60908f952caba"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": [
+        {
+          "$oid": "68874ce32742b22d21b872c6"
+        },
+        {
+          "$oid": "68874d252742b22d21b872e1"
+        },
+        {
+          "$oid": "68874d922742b22d21b8730e"
+        },
+        {
+          "$oid": "68874d7f2742b22d21b87305"
+        },
+        {
+          "$oid": "68874d532742b22d21b872f3"
+        },
+        {
+          "$oid": "68874cc82742b22d21b872bd"
+        },
+        {
+          "$oid": "68874cfe2742b22d21b872cf"
+        },
+        {
+          "$oid": "68874d6a2742b22d21b872fc"
+        },
+        {
+          "$oid": "68874c6f2742b22d21b872a7"
+        },
+        {
+          "$oid": "68874cad2742b22d21b872b4"
+        },
+        {
+          "$oid": "68874d112742b22d21b872d8"
+        },
+        {
+          "$oid": "68874d3b2742b22d21b872ea"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T05:58:52.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:58:52.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689440a6b56a8f80916e5770"
+  },
+  "roleId": {
+    "$oid": "68943fd3b56a8f80916e56fe"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943bfbb56a8f80916e5650"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T05:59:02.621Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:59:02.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689442cfb56a8f80916e5850"
+  },
+  "roleId": {
+    "$oid": "689442a1b56a8f80916e5833"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943c02b56a8f80916e5655"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T06:08:15.632Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:08:15.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944300b56a8f80916e5870"
+  },
+  "roleId": {
+    "$oid": "689442a7b56a8f80916e5837"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943c02b56a8f80916e5655"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874da9b7bf60908f952cabe"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5d17bf60908f952cabc"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5c57bf60908f952caba"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": [
+        {
+          "$oid": "68874ce32742b22d21b872c6"
+        },
+        {
+          "$oid": "68874d252742b22d21b872e1"
+        },
+        {
+          "$oid": "68874d922742b22d21b8730e"
+        },
+        {
+          "$oid": "68874d7f2742b22d21b87305"
+        },
+        {
+          "$oid": "68874d532742b22d21b872f3"
+        },
+        {
+          "$oid": "68874cc82742b22d21b872bd"
+        },
+        {
+          "$oid": "68874cfe2742b22d21b872cf"
+        },
+        {
+          "$oid": "68874d6a2742b22d21b872fc"
+        },
+        {
+          "$oid": "68874c6f2742b22d21b872a7"
+        },
+        {
+          "$oid": "68874cad2742b22d21b872b4"
+        },
+        {
+          "$oid": "68874d112742b22d21b872d8"
+        },
+        {
+          "$oid": "68874d3b2742b22d21b872ea"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T06:09:04.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:09:04.009Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689443d2b56a8f80916e58f4"
+  },
+  "roleId": {
+    "$oid": "689443aeb56a8f80916e58d6"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943c09b56a8f80916e565a"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T06:12:34.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:12:34.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894440eb56a8f80916e5914"
+  },
+  "roleId": {
+    "$oid": "689443bab56a8f80916e58da"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "68943c09b56a8f80916e565a"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874dafc7bf60908f952cadd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874da9b7bf60908f952cabe"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5d17bf60908f952cabc"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5c57bf60908f952caba"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": [
+        {
+          "$oid": "68874ce32742b22d21b872c6"
+        },
+        {
+          "$oid": "68874d252742b22d21b872e1"
+        },
+        {
+          "$oid": "68874d922742b22d21b8730e"
+        },
+        {
+          "$oid": "68874d7f2742b22d21b87305"
+        },
+        {
+          "$oid": "68874d532742b22d21b872f3"
+        },
+        {
+          "$oid": "68874cc82742b22d21b872bd"
+        },
+        {
+          "$oid": "68874cfe2742b22d21b872cf"
+        },
+        {
+          "$oid": "68874d6a2742b22d21b872fc"
+        },
+        {
+          "$oid": "68874c6f2742b22d21b872a7"
+        },
+        {
+          "$oid": "68874cad2742b22d21b872b4"
+        },
+        {
+          "$oid": "68874d112742b22d21b872d8"
+        },
+        {
+          "$oid": "68874d3b2742b22d21b872ea"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T06:13:34.285Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:13:34.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68944becb56a8f80916e59bf"
+  },
+  "roleId": {
+    "$oid": "68906e707d4d0f0b380ea681"
+  },
+  "userId": null,
+  "matrixType": "RBAC",
+  "organizationId": [
+    {
+      "$oid": "688719b252e7ab858cec222f"
+    }
+  ],
+  "permissions": [
+    {
+      "module": {
+        "$oid": "6874daf57bf60908f952cadb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daef7bf60908f952cad9"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874daea7bf60908f952cad7"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dae47bf60908f952cad5"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dade7bf60908f952cad3"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad87bf60908f952cad1"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dad17bf60908f952cacf"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dacb7bf60908f952cacd"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874dac67bf60908f952cacb"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": []
+    },
+    {
+      "module": {
+        "$oid": "6874d5a47bf60908f952cab8"
+      },
+      "accessLevel": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": false
+      },
+      "components": [
+        {
+          "$oid": "68874ce32742b22d21b872c6"
+        },
+        {
+          "$oid": "68874cfe2742b22d21b872cf"
+        },
+        {
+          "$oid": "68874d112742b22d21b872d8"
+        }
+      ]
+    }
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2025-08-07T06:47:08.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T06:47:08.257Z"
+  },
+  "__v": 0
+}]

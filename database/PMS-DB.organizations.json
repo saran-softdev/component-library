@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "688719b252e7ab858cec222f"
+  },
+  "organizationId": "pms-org",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-07-28T06:33:22.115Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-07-28T06:33:22.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T06:33:22.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891aa560dc6c8c4ead56d1e"
+  },
+  "organizationId": "hilton-ruh-109",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-08-05T06:53:10.549Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T06:53:10.549Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:41:37.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6891dfd20dc6c8c4ead56e01"
+  },
+  "organizationId": "marriott-ruh-002",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-08-05T10:41:22.257Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-05T10:41:22.258Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-05T10:41:22.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943bfbb56a8f80916e5650"
+  },
+  "organizationId": "hyatt-blr-202",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-08-07T05:39:07.834Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:39:07.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:39:07.836Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943c02b56a8f80916e5655"
+  },
+  "organizationId": "taj-mum-303",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-08-07T05:39:14.453Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:39:14.454Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:39:14.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68943c09b56a8f80916e565a"
+  },
+  "organizationId": "oberoi-del-404",
+  "theme": {
+    "name": "default",
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#FFFFFF",
+    "surfaceColor": "#F8FAFC",
+    "textColor": "#1E293B",
+    "borderColor": "#E2E8F0",
+    "accentColor": "#10B981",
+    "warningColor": "#F59E0B",
+    "errorColor": "#EF4444",
+    "successColor": "#10B981",
+    "isCustom": false,
+    "lastUpdated": {
+      "$date": "2025-08-07T05:39:21.359Z"
+    }
+  },
+  "createdBy": {
+    "$oid": "68906d9d7d4d0f0b380ea64d"
+  },
+  "updatedBy": null,
+  "deletedBy": null,
+  "restoredBy": null,
+  "deletedAt": null,
+  "restoredAt": null,
+  "changeReason": null,
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-08-07T05:39:21.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T05:39:21.359Z"
+  },
+  "__v": 0
+}]

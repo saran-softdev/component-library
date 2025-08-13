@@ -1,0 +1,700 @@
+{
+	"info": {
+		"_postman_id": "4ea4623f-ccdc-46f4-9a8e-3a5d52d99a91",
+		"name": "Hotel Api Out",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20272056",
+		"_collection_link": "https://martian-meadow-534983.postman.co/workspace/API-out~0c0532f3-1a07-44ca-96e2-d548b8fe8410/collection/20272056-4ea4623f-ccdc-46f4-9a8e-3a5d52d99a91?action=share&source=collection_link&creator=20272056"
+	},
+	"item": [
+		{
+			"name": "Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setEnvironmentVariable(\"token\", jsonData.token);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "{{userId}}",
+						"type": "text"
+					},
+					{
+						"key": "password",
+						"value": "{{password}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/auth/authenticate",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"authenticate"
+					]
+				},
+				"description": "Authentication"
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    var jsonData = pm.response.json();",
+							"    pm.environment.set(\"sid\", jsonData.session_Id);",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    //\"cityCode\": \"212101\",\r\n    \"checkinDate\": \"21-Sep-2024\",\r\n    \"checkoutDate\": \"22-Sep-2024\",\r\n    \"searchRooms\": [\r\n        {\r\n            \"Room\": 1,\r\n            \"adult\": 1,\r\n            \"child\": 0,\r\n            \"childAge\": []\r\n        }\r\n    ],\r\n    \"currency\": \"AED\",\r\n    \"nationality\": \"IN\",\r\n    \"langCode\": \"EN\",\r\n    \"lat\": 31.9544,\r\n    \"lon\": 35.9106\r\n    //\"hotelId\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/hotel/search",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"hotel",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Availability",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    var jsonData = pm.response.json();\r",
+							"    pm.environment.set(\"sid\", jsonData.session_Id);\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"CityCode\": \"212101\",\r\n    \"checkinDate\": \"13-Jul-2024\",\r\n    \"checkoutDate\": \"20-Jul-2024\",\r\n    \"searchRooms\": [\r\n        {\r\n            \"Room\": 1,\r\n            \"adult\": 1,\r\n            \"child\": 0,\r\n            \"childAge\": []\r\n        }\r\n    ],\r\n    \"noOfNight\": 7,\r\n    \"currency\": \"AED\",\r\n    \"nationality\": \"IN\",\r\n    \"hotelCode\": \"2157740\",\r\n    \"Session_Id\": \"{{sid}}\"\r\n   // \"includeStaticData\" : true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/hotel/availability",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"hotel",
+						"availability"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recheck",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sid\": \"{{sid}}\",\r\n    \"hotelCode\": \"2157740\",\r\n    \"rate\": [\r\n        {\r\n            \"rateGroupKey\": \"490d0dff-a96a-4577-8bfd-2c05628f38ec\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/hotel/recheck",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"hotel",
+						"recheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Pax\": [\r\n        {\r\n            \"Title\": \"Mr\",\r\n            \"PassengerType\": \"adult\",\r\n            \"FirstName\": \"sohail\",\r\n            \"LastName\": \"khan\",\r\n            \"Nationality\": \"KW\",\r\n            \"ResidenceCountry\": null,\r\n            \"ContactCode\": \"+91\",\r\n            \"ContactNumber\": \"9817283767\",\r\n            \"EmailId\": \"sohail.infohybrid@gmail.com\",\r\n            \"Order\": \"1\",\r\n            \"Age\": null,\r\n            \"RoomId\": 1,\r\n            \"LeadGuest\": true\r\n        }\r\n    ],\r\n    \"Client\": {\r\n        \"UserId\": \"\",\r\n        \"Title\": \"Mr\",\r\n        \"FirstName\": \"Irfan\",\r\n        \"LastName\": \"Qureshi\",\r\n        \"EmailAddress\": \"Irfan.infohybrid@gmail.com\",\r\n        \"MobileNumber\": \"91729837263\",\r\n        \"Nationality\": \"IN\"\r\n    },\r\n    \"Rate\": [\r\n        {\r\n            \"RateGroupKey\": \"d1a67c9f-4849-446a-8084-d815716a162e\"\r\n        }\r\n    ],\r\n    \"Sid\": \"{{sid}}\",\r\n    \"SpecialRequest\": \"\",\r\n    \"PaymentMode\" :\"WALLET\" //PayAtAgency //WALLET\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/hotel/booking",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"hotel",
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HotelName",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var template = `",
+							"<style type=\"text/css\">",
+							"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}",
+							"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}",
+							"    .tftable tr {background-color:#ffffff;}",
+							"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}",
+							"    .tftable tr:hover {background-color:#e0ffff;}",
+							"</style>",
+							"",
+							"<table class=\"tftable\" border=\"1\">",
+							"    <tr>",
+							"        <th>Hotel ID</th>",
+							"        <th>Hotel Name</th>",
+							"        <th>City Code</th>",
+							"        <th>City Name</th>",
+							"        <th>Country Code</th>",
+							"        <th>Country Name</th>",
+							"    </tr>",
+							"    ",
+							"    {{#each response.hotels}}",
+							"        <tr>",
+							"            <td>{{hotelID}}</td>",
+							"            <td>{{hotelName}}</td>",
+							"            <td>{{cityCode}}</td>",
+							"            <td>{{cityName}}</td>",
+							"            <td>{{countryCode}}</td>",
+							"            <td>{{countryName}}</td>",
+							"        </tr>",
+							"    {{/each}}",
+							"</table>",
+							"`;",
+							"",
+							"function constructVisualizerPayload() {",
+							"    return { response: pm.response.json() }",
+							"}",
+							"",
+							"pm.visualizer.set(template, constructVisualizerPayload());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hotelName\": \"marri\",\r\n    \"languageCode\": \"ar\",\r\n    \"latitude\": \"19.0748\",\r\n    \"longitude\": \"72.8856\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/HotelName",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"HotelName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HotelCities",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"var template = `",
+							"<style type=\"text/css\">",
+							"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}",
+							"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}",
+							"    .tftable tr {background-color:#ffffff;}",
+							"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}",
+							"    .tftable tr:hover {background-color:#e0ffff;}",
+							"</style>",
+							"",
+							"<table class=\"tftable\" border=\"1\">",
+							"    <tr>",
+							"        <th>Hotel ID</th>",
+							"        <th>Hotel Name</th>",
+							"        <th>City Code</th>",
+							"        <th>City Name</th>",
+							"        <th>Country Code</th>",
+							"        <th>Country Name</th>",
+							"    </tr>",
+							"    ",
+							"    {{#each response.hotels}}",
+							"        <tr>",
+							"            <td>{{hotelID}}</td>",
+							"            <td>{{hotelName}}</td>",
+							"            <td>{{cityCode}}</td>",
+							"            <td>{{cityName}}</td>",
+							"            <td>{{countryCode}}</td>",
+							"            <td>{{countryName}}</td>",
+							"        </tr>",
+							"    {{/each}}",
+							"</table>",
+							"`;",
+							"",
+							"function constructVisualizerPayload() {",
+							"    return { response: pm.response.json() }",
+							"}",
+							"",
+							"pm.visualizer.set(template, constructVisualizerPayload());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cityName\": \"mum\",\r\n    \"languageCode\": \"ar\",\r\n    \"latitude\": \"19.0748\",\r\n    \"longitude\": \"72.8856\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/HotelCities",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"HotelCities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBookingDetails",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/GetBookingDetails/TR1-AAD-3725",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"GetBookingDetails",
+						"TR1-AAD-3725"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCancelFee",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/getcancelfee/2402290728283628916",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"getcancelfee",
+						"2402290728283628916"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"booking_id\": \"2402290728283628916\",\r\n    \"cancellation_flag\": \"cancel\",\r\n    \"Sid\": \"{{sid}}\",\r\n    \"reason_code\": \"1\",\r\n    \"cancellation_comments\": \"test\",\r\n    \"Key\": \"3a5ae817-068e-4e41-9fcc-3c8fd85fc425\",\r\n    \"Amount\": \"0\",\r\n    \"selectKey\": \"null\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/cancel",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"cancel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StaticData",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgId",
+						"value": "{{orgId}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cityName\": \"mum\",\r\n    \"languageCode\": \"EN\",\r\n    \"latitude\": \"19.0748\",\r\n    \"longitude\": \"72.8856\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/Hotel/staticdata/2157740/en",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Hotel",
+						"staticdata",
+						"2157740",
+						"en"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
