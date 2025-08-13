@@ -29,7 +29,7 @@ import {
   PuzzlePieceIcon,
   ExclamationTriangleIcon
 } from "@heroicons/react/24/outline";
-import Notification from "@/Components/ui/Notification";
+import Notification from "@/custom-components/common/Notification";
 
 const fallbackImage = "/error.png";
 

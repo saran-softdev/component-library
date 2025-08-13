@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { useSession } from "next-auth/react";
 import AccessMatrixTable from "./AccessMatrixTable";
-import Notification from "@/Components/ui/Notification";
+import Notification from "@/custom-components/common/Notification";
 
 // Confirmation Modal Component
 const ConfirmationModal = ({

@@ -3,20 +3,20 @@
 import React, { useEffect, useState, Suspense } from "react";
 import { useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
+import AdminHotelCount from "@/custom-components/(admin)/(overview)/(pms-admin)/AdminHotelCount";
+import AdminBookingStats from "@/custom-components/(admin)/(overview)/(pms-admin)/AdminBookingStats";
+import PlatformRevenueInsights from "@/custom-components/(admin)/(overview)/(pms-admin)/PlatformRevenueInsights";
+import SupportTicketsBoard from "@/custom-components/(admin)/(overview)/(pms-staff)/SupportTicketsBoard";
+import VerificationTaskQueue from "@/custom-components/(admin)/(overview)/(pms-staff)/VerificationTaskQueue";
+import TodayBookingSummary from "@/custom-components/(admin)/(overview)/(pms-staff)/TodayBookingSummary";
+import OwnerRoomInventory from "@/custom-components/(admin)/(overview)/(hotel-owner)/OwnerRoomInventory";
+import OwnerBookingOverview from "@/custom-components/(admin)/(overview)/(hotel-owner)/OwnerBookingOverview";
+import OwnerRevenueReport from "@/custom-components/(admin)/(overview)/(hotel-owner)/OwnerRevenueReport";
+import StaffTaskAssignments from "@/custom-components/(admin)/(overview)/(hotel-staff)/StaffTaskAssignments";
+import CheckinCheckoutMonitor from "@/custom-components/(admin)/(overview)/(hotel-staff)/CheckinCheckoutMonitor";
+import GuestServiceRequests from "@/custom-components/(admin)/(overview)/(hotel-staff)/GuestServiceRequests";
 
 // ✅ Component imports
-import AdminHotelCount from "@/Components/(admin)/(overView)/(pms-admin)/AdminHotelCount";
-import AdminBookingStats from "@/Components/(admin)/(overView)/(pms-admin)/AdminBookingStats";
-import PlatformRevenueInsights from "@/Components/(admin)/(overView)/(pms-admin)/PlatformRevenueInsights";
-import SupportTicketsBoard from "@/Components/(admin)/(overView)/(pms-staff)/SupportTicketsBoard";
-import VerificationTaskQueue from "@/Components/(admin)/(overView)/(pms-staff)/VerificationTaskQueue";
-import TodayBookingSummary from "@/Components/(admin)/(overView)/(pms-staff)/TodayBookingSummary";
-import OwnerRoomInventory from "@/Components/(admin)/(overView)/(hotel-owner)/OwnerRoomInventory";
-import OwnerBookingOverview from "@/Components/(admin)/(overView)/(hotel-owner)/OwnerBookingOverview";
-import OwnerRevenueReport from "@/Components/(admin)/(overView)/(hotel-owner)/OwnerRevenueReport";
-import StaffTaskAssignments from "@/Components/(admin)/(overView)/(hotel-staff)/StaffTaskAssignments";
-import CheckinCheckoutMonitor from "@/Components/(admin)/(overView)/(hotel-staff)/CheckinCheckoutMonitor";
-import GuestServiceRequests from "@/Components/(admin)/(overView)/(hotel-staff)/GuestServiceRequests";
 
 // ✅ Widget metadata with layout preferences
 const widgetMeta = [

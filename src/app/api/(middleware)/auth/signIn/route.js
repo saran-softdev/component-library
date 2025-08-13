@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import dbConnect from "@/server/lib/dbConnect";
-import UserModal from "@/server/Models/userModal";
-import Role from "@/server/Models/Role";
+import UserModal from "@/server/models/userModal";
+import Role from "@/server/models/roleModel";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 

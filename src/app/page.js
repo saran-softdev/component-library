@@ -1,12 +1,11 @@
 import Image from "next/image";
 import gcsImageLoader from "@/lib/gcs-image-loader";
 import Link from "next/link";
-
-import HeroSection from "@/Components/HomeComponents/HeroSection";
-import FeaturesSection from "@/Components/HomeComponents/FeaturesSection";
-import TrustStatsSection from "@/Components/HomeComponents/TrustStatsSection";
-import ManagementServicesSection from "@/Components/HomeComponents/ManagementServicesSection";
-import HomeNavbar from "@/Components/common/HomeNavbar";
+import HomeNavbar from "@/custom-components/common/HomeNavbar";
+import HeroSection from "@/custom-components/home-components/HeroSection";
+import FeaturesSection from "@/custom-components/home-components/FeaturesSection";
+import TrustStatsSection from "@/custom-components/home-components/TrustStatsSection";
+import ManagementServicesSection from "@/custom-components/home-components/ManagementServicesSection";
 
 export default function Home() {
   return (

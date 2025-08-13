@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import dbConnect from "@/server/lib/dbConnect";
-import { getComponentAccessForPathname } from "@/server/Controllers/Dashboard/ComponentWidgets";
+import { getComponentAccessForPathname } from "@/server/controllers/Dashboard/componentWidgetsController";
 
 // GET: Fetch components, single component, or specific queries
 export async function GET(request) {

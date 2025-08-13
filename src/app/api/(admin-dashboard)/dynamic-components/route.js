@@ -7,7 +7,7 @@ import {
   updateComponent,
   deleteComponent,
   restoreComponent
-} from "@/server/Controllers/Dashboard/DynamicComponentsController";
+} from "@/server/controllers/Dashboard/dynamicComponentsController";
 
 // GET: Fetch components, single component, or specific queries
 export async function GET(request) {

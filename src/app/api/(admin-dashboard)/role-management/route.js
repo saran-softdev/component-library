@@ -1,4 +1,3 @@
-import dbConnect from "@/server/lib/dbConnect";
 import {
   createRole,
   getAllRoles,
@@ -8,8 +7,9 @@ import {
   restoreRole,
   getDeletedRoles,
   hardDeleteRole,
-  getRolesByCurrentUser,
-} from "@/server/Controllers/Dashboard/roleController";
+  getRolesByCurrentUser
+} from "@/server/controllers/Dashboard/roleController";
+import dbConnect from "@/server/lib/dbConnect";
 import { NextResponse } from "next/server";
 
 // GET: Fetch roles, single role, or deleted roles
@@ -26,7 +26,7 @@ export async function GET(request) {
       return await getRolesByCurrentUser(request);
     case "getRoleById":
       return await getRoleById(request, {
-        params: { id: url.searchParams.get("id") },
+        params: { id: url.searchParams.get("id") }
       });
     case "getDeletedRoles":
       return await getDeletedRoles(request);

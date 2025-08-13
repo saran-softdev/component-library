@@ -1,4 +1,3 @@
-import dbConnect from "@/server/lib/dbConnect";
 import {
   createUserByPmsAdmin,
   getAllUsers,
@@ -15,7 +14,8 @@ import {
   userManagementSoftDeleteUser,
   userManagementHardDeleteUser,
   userManagementRestoreUser
-} from "@/server/Controllers/User/userContoller";
+} from "@/server/controllers/User/userController";
+import dbConnect from "@/server/lib/dbConnect";
 import { NextResponse } from "next/server";
 
 // GET: Fetch users, single user, or deleted users

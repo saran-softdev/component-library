@@ -25,7 +25,7 @@ export default function HomeNavbar() {
   // PMS/Hotel-specific nav items
   const navItems = [
     { name: "Home", path: "/", icon: <FaHome /> },
-    { name: "Dashboard", path: "/dashboard", icon: <FaHotel /> },
+    { name: "Dashboard", path: "/dashboard/overview", icon: <FaHotel /> },
     { name: "AI Assistant", path: "/ai-assistant", icon: <FaRobot /> },
     { name: "Bookings", path: "/bookings", icon: <FaUmbrellaBeach /> }
   ];
@@ -135,7 +135,7 @@ export default function HomeNavbar() {
                           <>
                             <li>
                               <Link
-                                href="/dashboard"
+                                href="/dashboard/overview"
                                 className="block px-4 py-2 hover:bg-gray-200"
                               >
                                 My Profile

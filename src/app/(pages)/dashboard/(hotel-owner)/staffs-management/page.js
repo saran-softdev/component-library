@@ -10,7 +10,7 @@ import StaffTable from "./(components)/StaffTable";
 import LoadingSpinner from "./(components)/LoadingSpinner";
 import ErrorAlert from "./(components)/ErrorAlert";
 import StaffManagementTopBar from "./(components)/StaffManagementTopBar";
-import Notification from "@/Components/ui/Notification";
+import Notification from "@/custom-components/common/Notification";
 
 const StaffManagement = () => {
   // State management
@@ -33,7 +33,7 @@ const StaffManagement = () => {
     email: "",
     password: "",
     phoneNumber: "",
-    roleId: "",
+    roleId: ""
   });
   const [isEditing, setIsEditing] = useState(false);
   const [currentUserId, setCurrentUserId] = useState(null);
@@ -43,7 +43,7 @@ const StaffManagement = () => {
     show: false,
     type: "success",
     title: "",
-    message: "",
+    message: ""
   });
 
   const { data: session } = useSession();
@@ -115,7 +115,7 @@ const StaffManagement = () => {
           show: true,
           type: "error",
           title: "Error loading data",
-          message: err.message,
+          message: err.message
         });
       } finally {
         setLoading(false);
@@ -134,7 +134,7 @@ const StaffManagement = () => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
-      [name]: value,
+      [name]: value
     }));
   }, []);
 
@@ -146,7 +146,7 @@ const StaffManagement = () => {
       email: "",
       password: "",
       phoneNumber: "",
-      roleId: "",
+      roleId: ""
     });
     setIsEditing(false);
     setCurrentUserId(null);
@@ -161,7 +161,7 @@ const StaffManagement = () => {
       email: user.email || "",
       password: "",
       phoneNumber: user.phoneNumber || "",
-      roleId: user.roleId?._id || "",
+      roleId: user.roleId?._id || ""
     });
     setIsEditing(true);
     setCurrentUserId(user._id);
@@ -176,7 +176,7 @@ const StaffManagement = () => {
         setLoading(true);
         const userData = {
           ...formData,
-          createdBy: session?.user?.id,
+          createdBy: session?.user?.id
         };
 
         if (isEditing) {
@@ -191,7 +191,7 @@ const StaffManagement = () => {
         const response = await fetch(endpoint, {
           method: isEditing ? "PUT" : "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(userData),
+          body: JSON.stringify(userData)
         });
 
         if (!response.ok) {
@@ -218,7 +218,7 @@ const StaffManagement = () => {
           title: isEditing
             ? "Staff updated successfully"
             : "Staff created successfully",
-          message: "",
+          message: ""
         });
         resetForm();
         await fetchUsers();
@@ -228,7 +228,7 @@ const StaffManagement = () => {
           show: true,
           type: "error",
           title: "Failed to save user",
-          message: err.message || "Failed to save user",
+          message: err.message || "Failed to save user"
         });
       } finally {
         setLoading(false);
@@ -249,8 +249,8 @@ const StaffManagement = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               id: userId,
-              deletedBy: session?.user?.id,
-            }),
+              deletedBy: session?.user?.id
+            })
           }
         );
 
@@ -263,7 +263,7 @@ const StaffManagement = () => {
           show: true,
           type: "success",
           title: "Staff deleted successfully",
-          message: "",
+          message: ""
         });
         setDeleteConfirmUser(null);
         await fetchUsers();
@@ -273,7 +273,7 @@ const StaffManagement = () => {
           show: true,
           type: "error",
           title: "Failed to delete user",
-          message: err.message || "Failed to delete user",
+          message: err.message || "Failed to delete user"
         });
       } finally {
         setLoading(false);
@@ -300,7 +300,7 @@ const StaffManagement = () => {
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ id: userId }),
+            body: JSON.stringify({ id: userId })
           }
         );
 
@@ -315,7 +315,7 @@ const StaffManagement = () => {
           show: true,
           type: "success",
           title: "Staff permanently deleted",
-          message: "",
+          message: ""
         });
         await fetchUsers();
       } catch (err) {
@@ -324,7 +324,7 @@ const StaffManagement = () => {
           show: true,
           type: "error",
           title: "Failed to permanently delete user",
-          message: err.message || "Failed to permanently delete user",
+          message: err.message || "Failed to permanently delete user"
         });
       } finally {
         setLoading(false);
@@ -343,8 +343,8 @@ const StaffManagement = () => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             id: userId,
-            restoredBy: session?.user?.id,
-          }),
+            restoredBy: session?.user?.id
+          })
         });
 
         if (!response.ok) {
@@ -356,7 +356,7 @@ const StaffManagement = () => {
           show: true,
           type: "success",
           title: "Staff restored successfully",
-          message: "",
+          message: ""
         });
         await fetchUsers();
       } catch (err) {
@@ -365,7 +365,7 @@ const StaffManagement = () => {
           show: true,
           type: "error",
           title: "Failed to restore user",
-          message: err.message || "Failed to restore user",
+          message: err.message || "Failed to restore user"
         });
       } finally {
         setLoading(false);

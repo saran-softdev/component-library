@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useSession, signIn } from "next-auth/react";
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
-import Notification from "@/Components/ui/Notification";
+import Notification from "@/custom-components/common/Notification";
 
 const AuthPage = () => {
   const router = useRouter();
@@ -20,13 +20,13 @@ const AuthPage = () => {
     show: false,
     type: "success",
     title: "",
-    message: "",
+    message: ""
   });
 
   // Redirect if already authenticated
   useEffect(() => {
     if (status === "authenticated") {
-      router.push("/dashboard");
+      router.push("/dashboard/overview");
     }
   }, [status, router]);
 
@@ -36,7 +36,7 @@ const AuthPage = () => {
         show: true,
         type: "error",
         title: "Email is required",
-        message: "Please enter your email address.",
+        message: "Please enter your email address."
       });
       return false;
     }
@@ -46,7 +46,7 @@ const AuthPage = () => {
         show: true,
         type: "error",
         title: "Invalid email address",
-        message: "Please enter a valid email address.",
+        message: "Please enter a valid email address."
       });
       return false;
     }
@@ -56,7 +56,7 @@ const AuthPage = () => {
         show: true,
         type: "error",
         title: "Password is required",
-        message: "Please enter your password.",
+        message: "Please enter your password."
       });
       return false;
     }
@@ -79,7 +79,7 @@ const AuthPage = () => {
         redirect: false,
         email,
         password,
-        organizationId,
+        organizationId
       });
 
       if (result?.error) {
@@ -87,7 +87,7 @@ const AuthPage = () => {
           show: true,
           type: "error",
           title: "Sign in failed",
-          message: result.error,
+          message: result.error
         });
         setLoading(false);
       } else {
@@ -95,10 +95,10 @@ const AuthPage = () => {
           show: true,
           type: "success",
           title: "Sign in successful",
-          message: "Redirecting to dashboard...",
+          message: "Redirecting to dashboard..."
         });
         setTimeout(() => {
-          router.push("/dashboard");
+          router.push("/dashboard/overview");
         }, 1500);
       }
     } catch (err) {
@@ -106,7 +106,7 @@ const AuthPage = () => {
         show: true,
         type: "error",
         title: "Sign in failed",
-        message: "Sign in failed. Please try again.",
+        message: "Sign in failed. Please try again."
       });
       setLoading(false);
     }

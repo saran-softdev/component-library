@@ -1,4 +1,3 @@
-import dbConnect from "@/server/lib/dbConnect";
 import {
   getAllSidebarItemsByUser,
   getAllSidebarItems,
@@ -12,8 +11,8 @@ import {
   updateChildItem,
   getAllSidebarItemsNoFilter,
   createSidebarItem
-} from "@/server/Controllers/Dashboard/sideBarController";
-import { checkRole, SIDEBAR_PERMISSIONS } from "@/server/Middlewares/checkRole";
+} from "@/server/controllers/Dashboard/sideBarController";
+import dbConnect from "@/server/lib/dbConnect";
 
 export async function GET(request) {
   await dbConnect();

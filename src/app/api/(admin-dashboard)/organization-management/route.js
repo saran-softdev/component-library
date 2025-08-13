@@ -1,14 +1,15 @@
-import dbConnect from "@/server/lib/dbConnect";
 import {
-  createOrganization,
   getAllOrganizations,
+  createOrganization,
   getOrganizationById,
   updateOrganization,
   softDeleteOrganization,
   restoreOrganization,
   getDeletedOrganizations,
-  hardDeleteOrganization,
-} from "@/server/Controllers/Dashboard/OrganizationController";
+  hardDeleteOrganization
+} from "@/server/controllers/Dashboard/organizationController";
+import dbConnect from "@/server/lib/dbConnect";
+
 import { NextResponse } from "next/server";
 
 // GET: Fetch organizations, single organization, or deleted organizations
@@ -23,7 +24,7 @@ export async function GET(request) {
       return await getAllOrganizations(request);
     case "getOrganizationById":
       return await getOrganizationById(request, {
-        params: { id: url.searchParams.get("id") },
+        params: { id: url.searchParams.get("id") }
       });
     case "getDeletedOrganizations":
       return await getDeletedOrganizations(request);

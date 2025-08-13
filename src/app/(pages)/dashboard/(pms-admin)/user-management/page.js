@@ -5,7 +5,7 @@ import { useSession } from "next-auth/react";
 import { toast } from "react-hot-toast";
 import { EyeSlashIcon } from "@heroicons/react/24/outline";
 import { EyeIcon } from "lucide-react";
-import Notification from "@/Components/ui/Notification";
+import Notification from "@/custom-components/common/Notification";
 import Image from "next/image";
 import gcsImageLoader from "@/lib/gcs-image-loader";
 

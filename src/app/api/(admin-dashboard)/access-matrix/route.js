@@ -4,8 +4,8 @@ import {
   getAccessMatrixForPmsAdmin,
   getAccessPermissionsForRole,
   getAccessPermissionsForRoleOrName,
-  updateAccessMatrixForAbac,
-} from "@/server/Controllers/Dashboard/AccessMatrixController";
+  updateAccessMatrixForAbac
+} from "@/server/controllers/Dashboard/accessMatrixController";
 import dbConnect from "@/server/lib/dbConnect";
 
 import { NextResponse } from "next/server";

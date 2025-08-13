@@ -15,7 +15,7 @@ export default function TrustStatsSection() {
             86% occupancy rate &bull; 4.9/5 guest satisfaction
           </p>
           <Link
-            href="/dashboard"
+            href="/dashboard/overview"
             className="btn-theme-primary inline-block px-6 py-3 rounded-full font-semibold transition"
           >
             See How It Works
