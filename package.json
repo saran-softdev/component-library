@@ -30,7 +30,7 @@
     "install": "^0.13.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.1",
-    "next-auth": "^4.24.11",
+    "next-auth": "^4.24.12",
     "nodemailer": "^6.10.1",
     "npm": "^11.4.2",
     "react-hot-toast": "^2.5.2",
