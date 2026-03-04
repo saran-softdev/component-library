@@ -21,7 +21,7 @@
     "@google-cloud/storage": "^7.16.0",
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
-    "axios": "^1.10.0",
+    "axios": "^1.13.5",
     "bcrypt": "^6.0.0",
     "express-rate-limit": "^8.0.1",
     "express-validator": "^7.2.1",
